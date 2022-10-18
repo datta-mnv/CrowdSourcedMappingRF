@@ -273,7 +273,7 @@ those variables will be dominated on the smaller range variables and
 this leads to biased results, so the standardization transforms the data
 into comparable scales.
 
-\[\text{rescaled}\left( \text{xi} \right) = \ \frac{xi - mean(x)}{standard\ deviation\ (x)}\]
+$rescaled(x_i) = \frac{x_i - mean(x)}{standard deviation(x)}$
 
 # CORRELATION MATRIX COMPUTATION
 
@@ -295,8 +295,7 @@ The following is the graphical representation of the PEV curve for the
 current DATA set, the PEVs will be in increasing order, i.e., PEV (1) \<
 PEV (2) \< PEV (3) \<… \< PEV (r) \< …\< PEV (28)
 
-![Chart, line chart Description automatically
-generated](media/image1.png)
+![](https://github.com/datta-mnv/CrowdSourcedMappingRF/blob/main/images/Picture1.png)
 
 At a 90% level of PEV, the least ‘r’ will be 20, this determines that
 90% of the DATA set information can be derived from the initial 20
@@ -448,7 +447,7 @@ probability of reaching that node. The importance is the built-in method
 of random forest package. The feature's importance for the current model
 with 400 decision trees is as follows
 
-![Table Description automatically generated](media/image2.png)
+![](https://github.com/datta-mnv/CrowdSourcedMappingRF/blob/main/images/Picture2.png)
 
 The above plot determines the top feature importance that made in
 decision trees for the current model, this shows that the ‘max\_ndvi’
