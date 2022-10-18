@@ -4,7 +4,7 @@
 
 This report aims to analyze and classify the data set containing NDVI
 (Normalized Difference Vegetation Index) values between January 2014 and
-July 2015. This report covers the automatic classification for land
+July 2015 [Dataset](https://archive.ics.uci.edu/ml/datasets/Crowdsourced+Mapping#). This report covers the automatic classification for land
 cover which uses the Random Forest classification algorithm.
 Furthermore, the RF classification is applied to limited features by
 using the mechanism of the principal components of the above data
@@ -452,3 +452,6 @@ with 400 decision trees is as follows
 The above plot determines the top feature importance that made in
 decision trees for the current model, this shows that the ‘max\_ndvi’
 feature has the highest importance for the current model with 16.89%.
+
+
+## [Source Code](https://github.com/datta-mnv/CrowdSourcedMappingRF/blob/main/CrowdSourceMappingRF.py)
